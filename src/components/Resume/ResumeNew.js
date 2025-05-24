@@ -35,13 +35,7 @@ function ResumeNew() {
             &nbsp;Download CV
           </Button>
         </Row>
-        <Document
-          file={webPdf} 
-          onLoadError={(error) => console.error("PDF load error:", error)}
-          className="d-flex justify-content-center"
-        >
-          <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-        </Document>
+        
 
         <Row style={{ justifyContent: "center", position: "relative", marginTop: "50px", marginBottom: "20px" }}>
           <h2>Full Stack Web Developer Resume</h2>
@@ -57,13 +51,7 @@ function ResumeNew() {
             &nbsp;Download CV
           </Button>
         </Row>
-        <Document
-          file={flutterPdf}
-          onLoadError={(error) => console.error("PDF load error:", error)}
-          className="d-flex justify-content-center"
-        >
-          <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-        </Document>
+        
 
 
       </Container>
