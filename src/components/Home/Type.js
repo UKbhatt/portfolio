@@ -6,13 +6,13 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Flutter Developer",
           "MERN Stack Developer",
+          "Flutter Developer",
           "Application Developer",
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 70,
       }}
     />
   );

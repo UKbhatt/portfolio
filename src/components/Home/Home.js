@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
-import Home2 from "./Home2";
 import Type from "./Type";
+import Home2 from "./Home2.js";
 
 function Home() {
   return (
@@ -19,7 +19,6 @@ function Home() {
                   👋🏻
                 </span>
               </h1>
-
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> Utkarsh Bhatt</strong>

@@ -20,7 +20,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={5} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={NewsNow}
               isBlog={false}
@@ -30,7 +30,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={5} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ThoughtFlow}
               isBlog={false}
@@ -46,7 +46,7 @@ function Projects() {
               isBlog={false}
               title="Task Tracker"
               description="A sleek and simple Task Tracker app built with Flutter and Supabase — track, manage, and organize your tasks with ease. Features task creation with due dates, completion toggles, and a stylish glassmorphic interface."
-              ghLink="https://github.com/UKbhatt/Task_Tracker"
+              ghLink="https://github.com/UKbhatt/Task-Tracker"
                          
             />
           </Col>
@@ -56,7 +56,7 @@ function Projects() {
               isBlog={false}
               title="Text Extractor Application"
               description="A sleek and simple Task Tracker app built with Flutter and Supabase — track, manage, and organize your tasks with ease. Features task creation with due dates, completion toggles, and a stylish glassmorphic interface."
-              ghLink="https://github.com/UKbhatt/Text_Extractor_App"
+              ghLink="https://github.com/UKbhatt/Text_Extractor_Application"
                          
             />
           </Col>
@@ -67,7 +67,7 @@ function Projects() {
               isBlog={false}
               title="Student Management System"
               description="The College Management System (CMS) is a comprehensive solution designed to enhance the management of educational institutions. It streamlines various operations, including the management of departments, instructors, courses, students, and enrollments. By employing role-based access, the system ensures secure and organized operations for administrators, instructors, and students alike. Built using PHP and MySQL, the CMS offers robust server-side logic and efficient data storage capabilities"
-              ghLink="https://github.com/UKbhatt/Student_Management_System"
+              ghLink="https://github.com/UKbhatt/CollegeManagementSystem"
             />
           </Col>
         </Row>
