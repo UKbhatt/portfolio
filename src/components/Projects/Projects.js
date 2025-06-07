@@ -4,7 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ThoughtFlow from "../../Assets/ProjectLogos/image.png";
 import TaskTracker from "../../Assets/ProjectLogos/TaskTracker.png";
-import NewsNow from "../../Assets/ProjectLogos/News.jpg";
+import NewsNow from "../../Assets/ProjectLogos/News.png";
+import Readu from "../../Assets/ProjectLogos/Reading.png"
 import ExApp from "../../Assets/ProjectLogos/ExApp.png";
 import Student from "../../Assets/ProjectLogos/Student.png";
 
@@ -31,7 +32,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={NewsNow}
+              imgPath={Readu}
               isBlog={false}
               title="ReadingVerse"
               description="ReadingVerse is a cross-platform reading application built with Flutter, designed for immersive reading experiences across diverse formats including manga, manhwa, books and many more. The app provides a clean, distraction-free interface with smooth navigation, making it easy for users to enjoy their favorite content."
