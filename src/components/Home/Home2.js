@@ -76,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://x.com/utkarsh_B2004?t=wwu897OEUJDwCSy5GVAkeQ&s=09"
+                  href="https://x.com/utkarsh_B2004"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -84,6 +84,7 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/utkarsh-bhatt-183325261/"

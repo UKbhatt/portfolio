@@ -376,6 +376,7 @@ button:focus {
     display: inline-block !important;
     position: relative !important;
     padding-inline-start: 0 !important;
+    pointer-events: auto !important;
 }
 
 .home-social-icons {

@@ -29,6 +29,15 @@ function Projects() {
               ghLink="https://github.com/UKbhatt/NewsNow"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={NewsNow}
+              isBlog={false}
+              title="ReadingVerse"
+              description="ReadingVerse is a cross-platform reading application built with Flutter, designed for immersive reading experiences across diverse formats including manga, manhwa, books and many more. The app provides a clean, distraction-free interface with smooth navigation, making it easy for users to enjoy their favorite content."
+              ghLink="https://github.com/UKbhatt/Readu"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
